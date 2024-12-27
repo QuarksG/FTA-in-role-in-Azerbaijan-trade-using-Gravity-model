@@ -1,5 +1,7 @@
 ## Dataframe headers in the https://www.cepii.fr/
 
+# link of the data :https://www.cepii.fr/DATA_DOWNLOAD/gravity/data/Gravity_csv_V202211.zip
+
     data = {
         'year': [],
         'country_id_o': [],
