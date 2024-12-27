@@ -1,6 +1,9 @@
-## Dataframe headers in the https://www.cepii.fr/
+## Dataframe headers in the CEPII Gravity Data
 
-# link of the data :https://www.cepii.fr/DATA_DOWNLOAD/gravity/data/Gravity_csv_V202211.zip
+### **Link to the Data**
+You can download the data from the following link:  
+[CEPII Gravity Data](https://www.cepii.fr/DATA_DOWNLOAD/gravity/data/Gravity_csv_V202211.zip)
+
 
     data = {
         'year': [],
