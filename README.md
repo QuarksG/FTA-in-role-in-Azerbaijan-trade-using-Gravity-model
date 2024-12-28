@@ -5,95 +5,95 @@ You can download the data from the following link:
 [CEPII Gravity Data](https://www.cepii.fr/DATA_DOWNLOAD/gravity/data/Gravity_csv_V202211.zip)
 
 
-    data = {
-        'year': [],
-        'country_id_o': [],
-        'country_id_d': [],
-        'iso3_o': [],
-        'iso3_d': [],
-        'iso3num_o': [],
-        'iso3num_d': [],
-        'country_exists_o': [],
-        'country_exists_d': [],
-        'gmt_offset_2020_o': [],
-        'gmt_offset_2020_d': [],
-        'distw_harmonic': [],
-        'distw_arithmetic': [],
-        'distw_harmonic_jh': [],
-        'distw_arithmetic_jh': [],
-        'dist': [],
-        'main_city_source_o': [],
-        'main_city_source_d': [],
-        'distcap': [],
-        'contig': [],
-        'diplo_disagreement': [],
-        'scaled_sci_2021': [],
-        'comlang_off': [],
-        'comlang_ethno': [],
-        'comcol': [],
-        'col45': [],
-        'legal_old_o': [],
-        'legal_old_d': [],
-        'legal_new_o': [],
-        'legal_new_d': [],
-        'comleg_pretrans': [],
-        'comleg_posttrans': [],
-        'transition_legalchange': [],
-        'comrelig': [],
-        'heg_o': [],
-        'heg_d': [],
-        'col_dep_ever': [],
-        'col_dep': [],
-        'col_dep_end_year': [],
-        'col_dep_end_conflict': [],
-        'empire': [],
-        'sibling_ever': [],
-        'sibling': [],
-        'sever_year': [],
-        'sib_conflict': [],
-        'pop_o': [],
-        'pop_d': [],
-        'gdp_o': [],
-        'gdp_d': [],
-        'gdpcap_o': [],
-        'gdpcap_d': [],
-        'pop_source_o': [],
-        'pop_source_d': [],
-        'gdp_source_o': [],
-        'gdp_source_d': [],
-        'gdp_ppp_o': [],
-        'gdp_ppp_d': [],
-        'gdpcap_ppp_o': [],
-        'gdpcap_ppp_d': [],
-        'pop_pwt_o': [],
-        'pop_pwt_d': [],
-        'gdp_ppp_pwt_o': [],
-        'gdp_ppp_pwt_d': [],
-        'gatt_o': [],
-        'gatt_d': [],
-        'wto_o': [],
-        'wto_d': [],
-        'eu_o': [],
-        'eu_d': [],
-        'fta_wto': [],
-        'fta_wto_raw': [],
-        'rta_coverage': [],
-        'rta_type': [],
-        'entry_cost_o': [],
-        'entry_cost_d': [],
-        'entry_proc_o': [],
-        'entry_proc_d': [],
-        'entry_time_o': [],
-        'entry_time_d': [],
-        'entry_tp_o': [],
-        'entry_tp_d': [],
-        'tradeflow_comtrade_o': [],
-        'tradeflow_comtrade_d': [],
-        'tradeflow_baci': [],
-        'manuf_tradeflow_baci': [],
-        'tradeflow_imf_o': [],
-        'tradeflow_imf_d': []
-    }
+    Column Name,  Data Type
+    year,int64
+    country_id_o,object
+    country_id_d,object
+    iso3_o,object
+    iso3_d,object
+    iso3num_o,float64
+    iso3num_d,float64
+    country_exists_o,int64
+    country_exists_d,int64
+    gmt_offset_2020_o,float64
+    gmt_offset_2020_d,float64
+    distw_harmonic,float64
+    distw_arithmetic,float64
+    distw_harmonic_jh,float64
+    distw_arithmetic_jh,float64
+    dist,float64
+    main_city_source_o,object
+    main_city_source_d,object
+    distcap,float64
+    contig,float64
+    diplo_disagreement,float64
+    scaled_sci_2021,float64
+    comlang_off,float64
+    comlang_ethno,float64
+    comcol,float64
+    col45,float64
+    legal_old_o,float64
+    legal_old_d,float64
+    legal_new_o,float64
+    legal_new_d,float64
+    comleg_pretrans,float64
+    comleg_posttrans,float64
+    transition_legalchange,float64
+    comrelig,float64
+    heg_o,float64
+    heg_d,float64
+    col_dep_ever,float64
+    col_dep,float64
+    col_dep_end_year,float64
+    col_dep_end_conflict,float64
+    empire,object
+    sibling_ever,float64
+    sibling,float64
+    sever_year,float64
+    sib_conflict,float64
+    pop_o,float64
+    pop_d,float64
+    gdp_o,float64
+    gdp_d,float64
+    gdpcap_o,float64
+    gdpcap_d,float64
+    pop_source_o,float64
+    pop_source_d,float64
+    gdp_source_o,float64
+    gdp_source_d,float64
+    gdp_ppp_o,float64
+    gdp_ppp_d,float64
+    gdpcap_ppp_o,float64
+    gdpcap_ppp_d,float64
+    pop_pwt_o,float64
+    pop_pwt_d,float64
+    gdp_ppp_pwt_o,float64
+    gdp_ppp_pwt_d,float64
+    gatt_o,float64
+    gatt_d,float64
+    wto_o,float64
+    wto_d,float64
+    eu_o,float64
+    eu_d,float64
+    fta_wto,float64
+    fta_wto_raw,float64
+    rta_coverage,float64
+    rta_type,float64
+    entry_cost_o,float64
+    entry_cost_d,float64
+    entry_proc_o,float64
+    entry_proc_d,float64
+    entry_time_o,float64
+    entry_time_d,float64
+    entry_tp_o,float64
+    entry_tp_d,float64
+    tradeflow_comtrade_o,float64
+    tradeflow_comtrade_d,float64
+    tradeflow_baci,float64
+    manuf_tradeflow_baci,float64
+    tradeflow_imf_o,float64
+    tradeflow_imf_d,float64
+
 
 # Export 
 
