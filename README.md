@@ -95,6 +95,36 @@ You can download the data from the following link:
         'tradeflow_imf_d': []
     }
 
+# Export 
+    Variable	Description	 Export 
+    country_id_d	Destination country ID	Yes
+    iso3_d	Destination ISO3 alphabetic	Yes
+    iso3num_d	Destination ISO3 numeric	Yes
+    country_exists_d	1 = Destination country exists	Yes
+    gmt_offset_2020_d	Destination GMT offset (hours)	Yes
+    main_city_source_d	Source of destination's most populated city	Yes
+    legal_old_d	Destination legal system before transition	Yes
+    legal_new_d	Destination legal system after transition	Yes
+    heg_d	1 = Destination is current or former hegemon of origin	Yes
+    pop_d	Destination Population, total in thousands	Yes
+    gdp_d	Destination GDP (current thousands US$)	Yes
+    gdpcap_d	Destination GDP per cap (current thousands US$)	Yes
+    pop_source_d	Destination Population source	Yes
+    gdp_source_d	Destination GDP source	Yes
+    gdp_ppp_d	Destination GDP, PPP (current thousands international $)	Yes
+    gdpcap_ppp_d	Destination GDP per cap, PPP (current thousands international $) \$	Yes
+    gdp_ppp_pwt_d	Destination GDP, current PPP (2011 thousands US$) (PWT)	Yes
+    gatt_d	Destination GATT membership	Yes
+    wto_d	Destination WTO membership	Yes
+    eu_d	1 = Destination is a EU member	Yes
+    entry_cost_d	Destination Cost of business start-up procedures (% of GNI per capita)	Yes
+    entry_proc_d	Destination Start-up procedures to register a business (number)	Yes
+    entry_time_d	Destination Time required to start a business (days)	Yes
+    entry_tp_d	Destination Days + procedures to start a business	Yes
+    tradeflow_comtrade_d	Trade flows as reported by the destination, 1000 Current USD (source: UNSD)	Yes
+    tradeflow_imf_d	Trade flows as reported by the destination, 1000 Current USD (source: IMF)	Yes![Uploading image.png…]()
+
+
 
     ## Project Structure
 - `src/`: Scripts and source code for the analysis.
