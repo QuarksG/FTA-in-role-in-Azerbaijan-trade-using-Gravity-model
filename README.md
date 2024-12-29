@@ -112,8 +112,8 @@ You can download the data from the following link:
 
 
 
-    ## Project Structure
+## Project Structure
 - `src/`: Scripts and source code for the analysis.
 - `data/`: Contains input and processed data files.
-- `results/`: Outputs and results of the gravity model analysis.
+  
 
